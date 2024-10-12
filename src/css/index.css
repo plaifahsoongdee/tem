@@ -1,0 +1,19 @@
+/* index.css */
+body {
+    font-size: 16px;
+    line-height: 1.5;
+    color: #333;
+  }
+  
+  @media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+  
+  @media (max-width: 576px) {
+    body {
+      font-size: 12px;
+    }
+  }
+  

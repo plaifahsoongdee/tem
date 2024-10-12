@@ -1,0 +1,41 @@
+/* Sidebar.css */
+.sidebar {
+  background-color: #FFB6C1;
+  width: 250px;
+  height: 100vh;
+  padding: 20px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  color: white;
+}
+
+.sidebar h2 {
+  font-family: 'Comic Sans MS';
+  font-size: 24px;
+  color: #FF69B4;
+  margin-bottom: 30px;
+}
+
+.sidebar .list-group-item {
+  background-color: #FFB6C1;
+  color: #FF69B4;
+  border: none;
+  padding: 10px 15px;
+  font-size: 18px;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sidebar .list-group-item.active {
+  background-color: #FFFFFF;
+  color: #FF69B4;
+  font-weight: bold;
+}
+
+.sidebar .list-group-item:hover {
+  background-color: #FF69B4;
+  color: white;
+  cursor: pointer;
+}
